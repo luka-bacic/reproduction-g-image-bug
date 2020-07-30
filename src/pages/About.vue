@@ -1,14 +1,34 @@
 <template>
   <Layout>
-    <h1>About us</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.</p>
+    <p>
+      On this page the same 2 images are generated dynamically with
+      v-lazy-image. Lazy loading works correctly.
+    </p>
+    <div class="spacer-2"></div>
+    <div class="spacer-2"></div>
+    <div class="spacer-2"></div>
+
+    <VLazyImageDynamicPictures />
   </Layout>
 </template>
 
 <script>
+import VLazyImageDynamicPictures from "~/components/VLazyImageDynamicPictures";
+
 export default {
-  metaInfo: {
-    title: 'About us'
-  }
-}
+  components: {
+    VLazyImageDynamicPictures,
+  },
+};
 </script>
+
+<style>
+.spacer-2 {
+  height: 50vh;
+  background: plum;
+}
+
+.spacer-2:nth-of-type(2n) {
+  background: powderblue;
+}
+</style>
