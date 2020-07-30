@@ -12,6 +12,7 @@
       The static image below them is lazy loaded only when it comes into the
       viewport
     </p>
+    <p>Scroll down to see the images.</p>
     <div class="spacer"></div>
     <div class="spacer"></div>
     <div class="spacer"></div>

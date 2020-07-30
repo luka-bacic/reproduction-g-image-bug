@@ -4,6 +4,7 @@
       On this page the same 2 images are generated dynamically with
       v-lazy-image. Lazy loading works correctly.
     </p>
+    <p>Scroll down to see the images.</p>
     <div class="spacer-2"></div>
     <div class="spacer-2"></div>
     <div class="spacer-2"></div>
